@@ -8,7 +8,7 @@ class Settings(BaseSettings):
     DEBUG: bool = True
 
     # Database
-    DATABASE_URL: str = "postgresql://talentiq_user:talentiq_password@localhost:5432/talentiq_db"
+    DATABASE_URL: str = "postgresql://user:password@localhost:5432/dbname"
 
     # Redis
     REDIS_URL: str = "redis://localhost:6379/0"
