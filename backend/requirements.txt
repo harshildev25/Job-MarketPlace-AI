@@ -1,0 +1,49 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-dotenv==1.0.0
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.12.1
+
+# Authentication & Security
+pyjwt==2.8.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+email-validator==2.1.0
+
+# Data Validation
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Redis & Caching
+redis==5.0.1
+
+# Vector Database (FAISS - Simple, Fast, No Build Issues)
+faiss-cpu==1.8.0
+sentence-transformers==5.1.2
+
+# File Processing
+python-docx==0.8.11
+PyPDF2==3.0.1
+
+# HTTP Client
+httpx==0.25.2
+requests==2.31.0
+
+# Cloudinary (replaces MinIO)
+cloudinary==1.36.0
+
+# Logging
+python-json-logger==2.0.7
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Development
+black==23.12.0
+flake8==6.1.0
+isort==5.13.2
